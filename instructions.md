@@ -36,3 +36,16 @@ pull 명령어
 : Git Hub Repository 에 있는 코드를 내 PC 로 업데이트 하는 명령어
 
  즉, 이미 작업중인 내 PC Repositroy 에 있는 코드에 업데이트 된 Git Hub Repository 에 있는 코드를 업데이트 하는 명령어
+
+ 
+로컬 저장소에서 새로 갱신된 커밋을 원격 저장소에 갱신하기
+
+1. 로컬 저장소의 파일 내용 갱신
+2. Git bash에서 아래 세 개의 명령어를 실행한다.
+
+git add 파일명.확장자
+
+git commit -m "커밋 메시지"
+
+git push origin master 
+원격저장소에 푸시한다.
