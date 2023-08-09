@@ -49,3 +49,16 @@ git commit -m "커밋 메시지"
 
 git push origin master 
 원격저장소에 푸시한다.
+
+
+
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+SourceTree
+
+설명란을 보면 왼편에 master, origin/master 등 꼬리표가 붙어 있는데 master는 로컬 저장소 버전을 의미하고 origin/master는 원격저장소의 버전을 의미한다.
+
+git remote add <origin> 호스팅주소
+
+origin은 최초에 git bash에서 입력한 명령어인 위 코드에서 <> 내의 이름이 곧 원격저장소의 이름을 의미한다.
