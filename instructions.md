@@ -50,7 +50,22 @@ git commit -m "커밋 메시지"
 git push origin master 
 원격저장소에 푸시한다.
 
+git push -u origin master 이 커맨드는 origin이라는 리모트 레포지토리에 master라는 브랜치를 생성하고,
+로컬 레포지토리의 master 브랜치의 내용을 리모트 레포지토리의 master 브랜치에 보내라는 뜻.
 
+-u 옵션은 —set-upstream의 줄임말 이 옵션을 쓰면 로컬 레포지토리의 master 브랜치가 리모트 레포지토리의 master 브랜치를 항상 추적하도록(tracking) 하도록 설정된다. 
+
+이런 관계를 tracking connection이라고 한다.(이렇게 tracking connection이 있을 때 리모트 레포지토리의 master 브랜치를 '로컬 레포지토리의 master 브랜치'의 업스트림(upstream) 브랜치라고 함.)
+​
+이렇게 tracking connection이 설정되면 앞으로 로컬 레포지토리의 master 브랜치에서 단지
+
+git push
+
+라고만 쓰고 실행해도 자동으로 리모트 레포지토리의 master 브랜치에 내용을 전송하고,
+
+git pull
+
+이라고만 쓰고 실행해도 자동으로 리모트 레포지토리의 master 브랜치의 내용을 가져온다.
 
 
 ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
@@ -62,3 +77,9 @@ SourceTree
 git remote add <origin> 호스팅주소
 
 origin은 최초에 git bash에서 입력한 명령어인 위 코드에서 <> 내의 이름이 곧 원격저장소의 이름을 의미한다.
+
+git push origin master 명령어는 origin이라는 리모트 레포지토리에 master 브랜치가 생성되는 것이다.
+
+
+
+ 
