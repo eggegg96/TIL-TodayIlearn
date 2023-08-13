@@ -1,8 +1,9 @@
 Git 용어 정리
 
 
-Git : 버전 관리 시스템
 
+Git : 버전 관리 시스템 ( VCS : Version Control System )
+    
 GitHub : Git으로 관리하는 프로젝트를 올려둘 수 있는 사이트
 
 GUI : 그래픽 유저 인터페이스, 마우스로 클릭해서 사용하는 방식
